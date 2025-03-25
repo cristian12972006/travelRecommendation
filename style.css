@@ -1,0 +1,271 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.788);
+    
+}
+
+nav img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+#logo {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bolder;
+    margin-right: 15px;
+}
+
+nav a:hover {
+    color: blue;
+    cursor: pointer;
+
+}
+
+#busqueda {
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    margin-right: 8px;
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid white;
+
+
+
+}
+
+#busqueda input {
+    color: #006D5B;
+    width: 150px;
+    border: none;
+    
+}
+
+#busqueda img {
+    width: 18px;
+    height: 18px;
+    transform: translateY(30%);
+
+}
+
+#busqueda button {
+    background-color:#006d5bd0;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.container{    
+    display: flex;    
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to left, #03ac8f18,#006d5bd0);  
+    
+}
+.container-acerca{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, #03ac8f18,#006d5bd0);  
+}
+
+#result{
+    margin-left: 500px;
+    padding: 10px;
+    max-width: 400px;
+    word-wrap: break-word;
+  height: 400px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+  #result img{
+    width: 200px;
+    height: 100px;
+  }
+  .cities{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+    background-color: white;
+}
+.cities button{
+
+background-color: #006d5bd0;
+border: none;
+border-radius: 20px;
+padding: 8px;
+color: white;
+}
+
+
+.redes{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    position: fixed;
+    margin-right: 30px;
+    position: absolute;
+    top: 50%;
+}
+.redes img{
+    margin-bottom: 10px;   
+    border-radius: 30%;
+    width: 35px;
+    height: 35px;
+}
+.inicio, .acerca_de_nosostros {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 100px;  
+    width: 600px;
+       
+}
+
+.inicio p {
+    width: 400px;
+    font-size: 15px;
+    text-align: justify;
+   
+}
+.inicio button{
+    border-radius: 10px;
+    background-color:#006d5bd0 ;
+    color:white;
+    border: #006d5bd0;
+    padding: 10px;
+}
+
+/* acerca de nosotros */
+#navegacion{
+    margin-right: 500px;
+}
+
+
+.acerca_de_nosostros P{
+    width: 75%;
+    font-size: 15px;
+    text-align: justify;
+
+}
+
+.nuestro-equipo{
+    color: white;
+    margin-left: 150px;
+    
+  }
+  #teams{
+    display: flex;
+    justify-content: initial;
+   
+  }
+  #team{
+    border: 1px solid gray;    
+    border-radius: 6px;
+    margin: 30px;
+    padding: 10px;
+    width:100px;
+    font-size: 20px;
+    box-shadow: 0 3px 10px gray;
+  }
+.nuestro-equipo img {
+    height: 35px;
+  }
+
+.nuestro-equipo  h5{
+  align-items: center;
+  font-size: 20px;
+  margin-block-start: 8px;
+  margin-block-end: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.nuestro-equipo p {
+    align-items: center;
+    font-size: 15px;
+    color: gray;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+  }
+
+/*contactanos*/
+.container-contac{
+    display: flex;    
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to left, #03ac8f18,#006d5bd0);  
+}
+.contac{    
+    top:40%;
+    padding: 100px;
+    color: white;
+   
+}
+.contac h1{
+    font-size: 80px;
+}
+#formulario{
+    background-color: rgba(41, 41, 41, 0.384);
+    padding: 20px;
+    margin: 20px;
+    width:400px;
+    height: 500px;
+    border-radius: 20px;   
+    justify-content: center;
+    
+}
+
+#formulario input, textarea{
+    background-color: rgba(0, 0, 0, 0.384) ;
+    border: 1px ;
+    border-radius: 20px;
+    width: 350px;
+    padding: 10px;
+}
+#formulario button{
+    color: white;
+    background-color:#006d5bd0 ;
+    margin: 10px;
+    border: none;
+    border-radius:20px ;
+    padding: 10px;
+    font-size:15px;
+    
+}
+
