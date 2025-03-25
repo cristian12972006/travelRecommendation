@@ -7,28 +7,28 @@
         {
           "name": "Sydney, Australia",
           "imageUrl": "./img/Sydney.jpg",
-          "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
+          "description": "Una ciudad vibrante conocida por sus lugares emblemáticos como la Ópera de Sídney y el Puente del Puerto de Sídney."
         },
         {
           "name": "Melbourne, Australia",
           "imageUrl": "./img/Melbourne, Australia.jpg",
-          "description": "A cultural hub famous for its art, food, and diverse neighborhoods."
+          "description": "Un centro cultural famoso por su arte, comida y diversos vecindarios."
         }
       ]
     },
     {
       "id": 2,
-      "name": "Japan",
+      "name": "Japon",
       "cities": [
         {
-          "name": "Tokyo, Japan",
+          "name": "Tokyo, Japon",
           "imageUrl": "./img/Tokyo, Japan.jpg",
-          "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
+          "description": "Una metrópolis bulliciosa que combina tradición y modernidad, famosa por sus cerezos en flor y su rica cultura."
         },
         {
-          "name": "Kyoto, Japan",
+          "name": "Kyoto, Japon",
           "imageUrl": "./img/Kyoto, Japan.jpg",
-          "description": "Known for its historic temples, gardens, and traditional tea houses."
+          "description": "Conocido por sus templos históricos, jardines y casas de té tradicionales."
         }
       ]
     },
@@ -39,12 +39,12 @@
         {
           "name": "Rio de Janeiro, Brazil",
           "imageUrl": "./img/Rio de Janeiro, Brazil.jpg",
-          "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
+          "description": "Una ciudad animada conocida por sus impresionantes playas, vibrantes celebraciones de carnaval y lugares emblemáticos."
         },
         {
           "name": "São Paulo, Brazil",
           "imageUrl": "./img/São Paulo, Brazil.jpg",
-          "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
+          "description": "El centro financiero con diversidad cultural, artística y una vibrante vida nocturna."
         }
       ]
     }
@@ -54,13 +54,13 @@
       "id": 1,
       "name": "Angkor Wat, Cambodia",
       "imageUrl": "./img/Angkor Wat, Cambodia.jpg",
-      "description": "A UNESCO World Heritage site and the largest religious monument in the world."
+      "description": "Un sitio declarado Patrimonio de la Humanidad por la UNESCO y el monumento religioso más grande del mundo."
     },
     {
       "id": 2,
       "name": "Taj Mahal, India",
       "imageUrl": "./img/Taj Mahal, India.jpg",
-      "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
+      "description": "Un símbolo icónico del amor y una obra maestra de la arquitectura mogol."
     }
   ],
   "beaches": [
@@ -68,13 +68,13 @@
       "id": 1,
       "name": "Bora Bora, French Polynesia",
       "imageUrl": "./img/Bora Bora, French Polynesia.jpg",
-      "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
+      "description": "Una isla conocida por sus impresionantes aguas turquesas y sus lujosos bungalows sobre el agua."
     },
     {
       "id": 2,
       "name": "Copacabana Beach, Brazil",
       "imageUrl": "./img/Copacabana Beach, Brazil.jpg",
-      "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
+      "description": "Una playa famosa en Río de Janeiro, Brasil, con un ambiente vibrante y vistas panorámicas."
     }
   ]
 }
